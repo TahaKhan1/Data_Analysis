@@ -65,6 +65,7 @@ cnt_pc=0
 # wind speed in list wind_speeds.
 # Line 75: Evaluating the Total Energy produced(MWh) every hour
 # by multiplying the energy produced by Number of Turbines at site.
+# Need to get the csv files. 
 
 with open('PowerCurve.csv') as csvfile:
 	pc_reader=list(csv.reader(csvfile,delimiter=str(u',').encode('utf-8')))
